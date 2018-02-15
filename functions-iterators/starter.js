@@ -50,33 +50,5 @@ This will help us track your progress and it will give you practice writing good
 // PART 5: Vowel Count
 
 
-
-// PART 6: Initials
-
-
-
-// PART 7: Days of the week
-
-
-
-// PART 8: Let's take the Subway
-
-
-
-// PART 9: Truth - y & False -y Checker
-var arr = [null, 15, 'unicorn', undefined, 7 && false, null || 'hello, world', false && true, 0 || null];
-
-
-
-
-// BONUS: Double X Counter
-
-
-
-// BONUS Two-Dimensional Array
-
-
-
-
 /* connection checker console log */
 console.log('starter.js is connected! Let\'s get to work! 💪');
