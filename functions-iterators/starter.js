@@ -53,7 +53,23 @@ function oddOrEvenString(str) {
 }
 
 // PART 3: Median
-
+function medianOfArray(array) {
+  //sort
+  var sorted = array.sort(function(a, b){return a-b});
+  console.log(sorted);
+  //find the median using the length of the array
+  if (sorted.length%2 === 0) {
+    var middle1 = sorted.length / 2 - 1;
+    var middle2 = sorted.length / 2;
+    console.log(middle);
+    var medianValue = (sorted[middle1] + sorted[middle2]) / 2;
+    return medianValue;
+  } else {
+    var middle = Math.floor(sorted.length / 2);
+    return sorted[middle];
+  }
+}
+console.log(medianOfArray([10,20,12,15]))
 
 
 // PART 4: Sum Array
