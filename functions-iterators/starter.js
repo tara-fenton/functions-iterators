@@ -43,7 +43,7 @@ function bigOrSmallString(str) {
   }
 }
 
-// PART 2: Odd or Even String Length?
+// PART 2: Odd or Even String Length??
 function oddOrEvenString(str) {
   if (str.length%2 === 0) {
     return "This string length is TOTALLY even!";
