@@ -54,26 +54,34 @@ function oddOrEvenString(str) {
 
 // PART 3: Median
 function medianOfArray(array) {
-  //sort
+  //To find the median number:
+  //Put all the numbers in numerical order.
+
   var sorted = array.sort(function(a, b){return a-b});
-  console.log(sorted);
   //find the median using the length of the array
   if (sorted.length%2 === 0) {
+    //If there is an even number of results, the median will be the mean of the two central numbers.
     var middle1 = sorted.length / 2 - 1;
     var middle2 = sorted.length / 2;
-    console.log(middle);
     var medianValue = (sorted[middle1] + sorted[middle2]) / 2;
     return medianValue;
   } else {
+    //If there is an odd number of results, the median is the middle number.
     var middle = Math.floor(sorted.length / 2);
     return sorted[middle];
   }
 }
-console.log(medianOfArray([10,20,12,15]))
 
 
 // PART 4: Sum Array
-
+function sumArray(arr) {
+  var sum = 0;
+  for (var i = 0; i < arr.length; i++){
+    sum += arr[i];
+  }
+  return sum;
+}
+console.log(sumArray([0]))
 
 
 // PART 5: Vowel Count
