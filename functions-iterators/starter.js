@@ -35,12 +35,22 @@ justDoIt("TARA");
 
 
 // PART 1: Big or Small String?
-
-
+function bigOrSmallString(str) {
+  if (str.length > 10) {
+    return "This word is loooooong!";
+  } else {
+    return "This word is short";
+  }
+}
 
 // PART 2: Odd or Even String Length?
-
-
+function oddOrEvenString(str) {
+  if (str.length%2 === 0) {
+    return "This string length is TOTALLY even!";
+  } else {
+    return "This string's length is odd..";
+  }
+}
 
 // PART 3: Median
 
