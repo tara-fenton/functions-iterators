@@ -27,7 +27,7 @@ Write a **function** called `oddOrEvenString` that accepts one argument, a strin
 Write a **function** called `medianOfArray` that takes an **array** as an argument.
 The function should **return** the *median* number in an array.
 Hmmmm, haven't you found a median of the array before? Maybe not..
-> *Hint*: Use some kind of sorting method to put the values in order first, then somehow access the median element, somehow using the length of the array....maybe? We're going to go over arrays in depth on Monday but see if you can find some Array methods that can accomplish what you need.
+> *Hint*: Use some kind of sorting method to put the values in order first, then somehow access the median element, somehow using the length of the array....maybe? See if you can find some Array methods that can accomplish what you need.
 
 ### PART 4: Sum Array
 
@@ -35,3 +35,4 @@ Create a **function** called `sumArray` that takes an array `arr` as an argument
 
 ### PART 5: Vowel Count
 Create a **function** called `vowelCount` that accepts a `str` as an argument and **returns** the number of vowels in that string.
+> *Hint*: Check out the string method .split()
