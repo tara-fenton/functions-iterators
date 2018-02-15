@@ -20,7 +20,7 @@ function hello() {
 /* After each step, perform the following commands in the terminal:
 1. git add .
 2. git commit -m "add completed part PART-NUMBER-HERE"
-This will help us track your progress and it will give you practice writing good commit messages!! 
+This will help us track your progress and it will give you practice writing good commit messages!!
 */
 
 /* ++++====+++==++++==+++++======++++===++++++=====+++==++++++++++===== */
@@ -28,7 +28,10 @@ This will help us track your progress and it will give you practice writing good
 /* ++++====+++==++++==+++++======++++===++++++=====+++==++++++++++===== */
 
 // PART 0: Just DO it!!
-
+function justDoIt(name){
+  console.log(name + ", JUST DO IT!");
+}
+justDoIt("TARA");
 
 
 // PART 1: Big or Small String?
