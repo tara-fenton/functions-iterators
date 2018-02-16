@@ -81,11 +81,22 @@ function sumArray(arr) {
   }
   return sum;
 }
-console.log(sumArray([0]))
 
 
 // PART 5: Vowel Count
-
+function vowelCount(str) {
+  var vowels = ["a","e","i","o","u"];
+  var splitString = str.split("");
+  var vowelCount = 0;
+  //loop throught the split string
+  for (var i = 0; i < splitString.length; i++) {
+    //check if an element from the vowels array is in the split string
+    if (vowels.includes(splitString[i])) {
+        vowelCount++;
+    }
+  }
+  return vowelCount;
+}
 
 /* connection checker console log */
 console.log('starter.js is connected! Let\'s get to work! 💪');
